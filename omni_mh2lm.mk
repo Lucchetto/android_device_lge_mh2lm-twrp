@@ -15,7 +15,7 @@
 #
 
 # Release name
-PRODUCT_RELEASE_NAME := flashlmdd
+PRODUCT_RELEASE_NAME := mh2lm
 
 $(call inherit-product, build/target/product/embedded.mk)
 
@@ -23,16 +23,16 @@ $(call inherit-product, build/target/product/embedded.mk)
 $(call inherit-product, vendor/omni/config/common.mk)
 
 # Inherit from hardware-specific part of the product configuration
-$(call inherit-product, device/lge/flashlmdd/device.mk)
+$(call inherit-product, device/lge/mh2lm/device.mk)
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := flashlmdd
-PRODUCT_NAME := omni_flashlmdd
+PRODUCT_DEVICE := mh2lm
+PRODUCT_NAME := omni_mh2lm
 PRODUCT_BRAND := lge
-PRODUCT_MODEL := LG V50
+PRODUCT_MODEL := LG G8X ThinQ
 PRODUCT_MANUFACTURER := LGE
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_NAME=flashlmdd_lao_com \
-    BUILD_PRODUCT=flashlmdd \
-    TARGET_DEVICE=flashlmdd
+    PRODUCT_NAME=mh2lm_lao_com \
+    BUILD_PRODUCT=mh2lm \
+    TARGET_DEVICE=mh2lm

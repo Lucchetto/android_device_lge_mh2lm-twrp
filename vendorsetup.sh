@@ -1,1 +1,1 @@
-add_lunch_combo omni_flashlmdd-eng
+add_lunch_combo omni_mh2lm-eng

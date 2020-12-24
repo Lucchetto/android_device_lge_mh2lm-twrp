@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_flashlmdd.mk
+    $(LOCAL_DIR)/omni_mh2lm.mk

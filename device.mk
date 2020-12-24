@@ -1,5 +1,5 @@
 
-LOCAL_PATH := device/lge/flashlmdd
+LOCAL_PATH := device/lge/mh2lm
 
 PRODUCT_PLATFORM := msmnile
 
